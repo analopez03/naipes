@@ -1,0 +1,294 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-size: cover;
+      margin: 0;
+      padding: 0;}
+
+
+ul {
+	font-family:  'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+li {
+	font-family:  'Roboto', sans-serif;
+	font-size: 15px;
+}
+a {
+  display: block;
+  color: white;
+  text-align:justify;
+  text-decoration: none;
+}
+p {font-family: 'Roboto Flex', sans-serif;
+  font-size: 1.1vw;
+  line-height: 1.5;
+  color:black;
+  margin-bottom: 30px;
+}
+
+
+
+header {
+  width:100%;
+  background-color:black; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  display: flex; /* Mostrar los elementos en una línea */
+  justify-content:space-between; /* Alinear los elementos a los extremos */
+  align-items: center; /* Alinear los elementos verticalmente */
+}
+header a{
+	font-weight: bold;
+	margin: 10px;
+	line-height: inherit;
+	font-size: 10px;
+}
+header a:visited {
+	color: white;
+	text-decoration: none;
+}
+header a:link {
+	color: white;
+	text-decoration: none;
+}
+header a:hover {
+	color: white ;
+	text-decoration: none;
+}
+header a:active {
+	color: white;
+	text-decoration: none;
+}
+
+/* Estilos para el logo */
+.logo {
+  padding-left: 20px;
+}
+
+/* Estilos para el menú de navegación */
+nav {
+  display: flex; /* Mostrar los elementos en una línea */
+  justify-content: space-between; /* Alinear los elementos a los extremos */
+  align-items: center; /* Alinear los elementos verticalmente */
+}
+
+nav ul {
+  list-style: none; /* Eliminar marcadores de lista */
+  padding: 0px; /* Eliminar espaciado interior */
+  display: inline; /* Mostrar los elementos en una línea */
+}
+nav a{
+	font-family:  'Roboto', sans-serif;
+    text-decoration:none;
+    color:inherit;
+    font-size:0.8vw;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding: 0.1vw 1.8vw;
+    background-color:#ff0000;
+    align-content: center;
+    color:black;
+    margin-left: -0.3vw;
+    }
+    nav li:hover{
+    background-color:#747474;
+    color:white;
+    }
+
+.dropdown {
+  position: relative;
+  align-content: center;
+}
+
+.dropdown-content {
+	margin-top: 1%;
+	margin-left: -23%;
+  align-content: center;
+  display:none;
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+}
+
+.dropdown-content a{
+  padding: 0.7vw 0.1vw;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.3px 2px;
+  text-decoration: none;
+}
+
+.dropbtn a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 10px;
+  text-decoration: none;
+}
+
+a.dropbtn::first-letter {
+	color: black;
+	font-size: 3ch;
+	padding-right: 0.2ch;
+}
+/* Estilos para la sección Hero */
+.hero {
+  background-image: url("img/juegos.png");
+  background-size: cover;
+  height: 600px; /* altura */
+  display: flex; /* establecer como flex container */
+  align-items: center; /* centrar verticalmente */
+  justify-content: center; /* centrar horizontalmente */
+  text-align: center; /* alinear texto al centro */
+	z-index: 0;
+}
+
+.ocio {background-image: url(img/ocio2_oscuro.png); 
+  height: 600px; /* altura */
+  display: flex; /* establecer como flex container */
+  align-items: center; /* centrar verticalmente */
+  justify-content: center; /* centrar horizontalmente */
+  text-align: center; /* alinear texto al centro */}
+
+/* Estilos para el título h1 */
+.hero h1, .ocio h1 {
+  font-size: 4vw; /* tamaño de fuente */
+  font-weight: bold; /* negrita */
+  color: white; /* color de texto */
+  margin-bottom: 20px; /* margen inferior */
+}
+
+/* Estilos para el párrafo de descripción */
+.hero p, .ocio p {
+  font-size: 1.5vw; /* tamaño de fuente */
+  color: white; /* color de texto */
+  max-width: 600px; /* ancho máximo */
+  margin-bottom: 30px; /* margen inferior */
+}
+
+
+/* Estilos para la sección columns */
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+      box-sizing: border-box;
+		background-color: white;
+		z-index: 1;
+    }
+    
+    .column img {
+    width: 70%;
+    height: auto;
+    display: block;
+	  margin: auto;
+	  object-fit: cover;
+	  transition: transform 0.2s ease-out 100ms;
+    }
+ 
+    .column img:hover{transform: scale(1.1);}
+    
+    .column h4 {
+	  text-align: center;
+      margin-top:20;
+      font-size: 1.7vw;
+    }
+    
+    .column p {
+	  text-align: center;
+      margin-top: 5px;
+      font-size: 1.1vw;
+    }
+    
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+.column-medio {
+	background-color:#000000;
+}
+
+
+/* Estilos para la sección footer */
+footer { 
+  background-color: black;
+  color: #fff;
+  padding: 50px 0px;
+  font-size: 16px;
+}
+
+footer h3 {
+  font-size: 1vw;
+}
+
+/* Estilos para las columnas */
+footer .columna {
+  margin-left: 3vw;
+  display: inline-block;
+  width: 20%;
+  vertical-align:top;
+  padding: 0 3vw;
+  box-sizing:border-box;
+}
+
+/* Estilos para el logo */
+footer .logo img {
+  width: 70%;
+  min-width: 70px;
+}
+
+/* Estilos para la lista de servicios */
+footer .services ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer .services p{color: white;
+font-family:'Roboto', sans-serif;
+	font-size: 0.8vw;}
+footer .services li {
+  margin-bottom: 10px;
+  font-size: 0.8vw;
+}
+
+/* Estilos para la lista de enlaces legales */
+footer .legal ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+footer .legal li {
+  margin-bottom: 10px;
+  font-size: 0.8vw;
+}
+
+/* Estilos para los botones de redes sociales */
+footer .social-media {
+  text-align: left;
+}
+
+.social-media img{
+width: 2.6vw;
+height: 2.6vw;
+}
+
+footer .social-media a {
+  display: inline-block;
+  width: 2.6vw;
+  height: 2.6vw;
+  margin-left: 0.1vw;
+  line-height: 0px;
+  text-align: center;
+}

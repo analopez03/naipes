@@ -1,17 +1,17 @@
 <!doctype html>
-<html lang="es">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta content="Sonia Bermejo y Ana López" name="author" />
     <link rel="icon" type="image/png" href="img/favicon_A.png" />
-    <title>Inicio Naipe</title>
-    <link href="styles/Estilos.css" rel="stylesheet" type="text/css" />
+    <title>Eventos Naipe</title>
+    <link rel="stylesheet" href="styles/Estilos_eventos.css" />
   </head>
 
   <body>
     <header>
       <div class="logo">
-        <a href="index.html"
+        <a href="../index.html"
           ><img
             src="img/Logo NAIPE blanco.png"
             alt="Logo Naipe"
@@ -24,20 +24,20 @@
         <nav class="indice">
           <ul>
             <li class="dropdown" style="padding-right: 3vw; padding-left: 1vw">
-              <a href="html/NAIPE_nosotros.html" class="dropbtn">NOSOTROS</a>
+              <a href="NAIPE_nosotros.html" class="dropbtn">NOSOTROS</a>
             </li>
             <li class="dropdown">
               <a href="#" class="dropbtn">AREAS</a>
               <div class="dropdown-content">
-                <a href="html/NAIPE_juegos.html">JUEGOS Y OCIO</a>
-                <a href="html/NAIPE_tienda.html">TIENDA</a>
+                <a href="NAIPE_juegos.html">JUEGOS Y OCIO</a>
+                <a href="NAIPE_tienda.html">TIENDA</a>
               </div>
             </li>
             <li class="dropdown">
-              <a href="html/NAIPE_inicio.html" class="dropbtn">INICIO</a>
+              <a href="NAIPE_inicio.html" class="dropbtn">INICIO</a>
             </li>
             <li class="dropdown">
-              <a href="html/NAIPE_bar.html" class="dropbtn">PÍCARA</a>
+              <a href="NAIPE_bar.html" class="dropbtn">PÍCARA</a>
             </li>
             <li
               class="dropdown"
@@ -45,8 +45,8 @@
             >
               <a href="#" class="dropbtn">EVENTOS</a>
               <div class="dropdown-content">
-                <a href="html/NAIPE_torneos.html">TORNEOS</a>
-                <a href="html/NAIPE_eventos.html">EVENTOS ESPECIALES</a>
+                <a href="NAIPE_torneos.html">TORNEOS</a>
+                <a href="NAIPE_eventos.html">EVENTOS ESPECIALES</a>
               </div>
             </li>
           </ul>
@@ -56,79 +56,76 @@
 
     <section class="hero">
       <div class="hero-content">
-        <video
-          id="video-background"
-          src="Video oscuro 2.mp4"
-          autoplay
-          loop
-          muted
-        ></video>
-        <h1>Bienvenido a NAIPE</h1>
-        <p>Disfruta con nosotros de la mejor sala de ocio de Madrid</p>
-        <a href="html/NAIPE_nosotros.html" class="cta-btn">Ir a Nosotros</a>
+        <h1>Eventos</h1>
+        <p>
+          <Datag
+            >¿Quieres celebrar algo con tus amigos o familia? Hazlo en nuestro
+            local. Disfruta de la divertida música y del estupendo ambiente que
+            te ofrece Naipe. Seguro que a todos les gustaría vivir la
+            experiencia y que mejor que un rato en grupo disfrutando de los
+            juegos de mesa de siempre con un menú especial para la
+            ocasión.</Datag
+          >
+        </p>
       </div>
     </section>
 
     <section class="two-columns">
       <div class="column-1">
         <div class="image-container">
-          <img src="img/Jovenes cerveza y billar.png" class="img" alt="Bar 1" />
+          <img src="img/cumple_byn.png" class="img" alt="Cumpleaños" />
         </div>
       </div>
       <div class="column-2">
-        <h2>Juegos y ocio</h2>
+        <h2>Cumpleaños</h2>
         <p>
-          No te quedes aburrido en casa y ven a disfrutar con tus amigos y
-          familiares.
+          Celebra aquí tu mejor cumpleaños con partidas infinitas y un menú
+          especial.
         </p>
-        <a href="html/NAIPE_juegos.html" class="">Ir a Juegos</a>
+        <a href="html/NAIPE_reservas.html" class="">Reservar</a>
       </div>
     </section>
 
     <section class="two-columns">
       <div class="column-1">
-        <h2>Pícara</h2>
-        <p>Tómate algo en nuestra barra o llévatelo mientras juegas.</p>
-        <a href="html/NAIPE_bar.html" class="">Ir a Bar</a>
+        <h2>Reuniones</h2>
+        <p>Reúnete con tu gente y pásalo en grande.</p>
+        <a href="html/NAIPE_reservas.html" class="">Reservar</a>
       </div>
       <div class="column-2">
         <div class="image-container">
+          <img src="img/byn_reunion.png" alt="Reuniones" class="img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="two-columns">
+      <div class="column-1">
+        <div class="image-container">
           <img
-            src="img/picara.png"
-            alt="Bar 1"
+            src="img/despedida_byn.png"
+            alt="Despedida de solterx"
             class="img"
-            style="margin-left: 17vw"
           />
         </div>
       </div>
-    </section>
-
-    <section class="gallery">
-      <div class="gallery-row">
-        <img src="img/bar 1.jpg" />
-        <img src="img/bar 2.jpg" />
-        <img src="img/bar 3.jpg" />
-      </div>
-      <div class="gallery-row">
-        <img src="img/bar 4.jpg" />
-        <img src="img/bar 5.jpg" />
-        <img src="img/bar 6.jpg" />
+      <div class="column-2">
+        <h2>Despedidas de soltero/a</h2>
+        <p>Celébralo por todo lo alto con la mejor música y barra libre.</p>
+        <a href="html/NAIPE_reservas.html" class="">Reservar</a>
       </div>
     </section>
 
     <section class="two-columns">
       <div class="column-1">
-        <div class="image-container">
-          <img src="img/eventos.png" alt="Bar 1" class="img" />
-        </div>
+        <h2>Fiestas privadas</h2>
+        <p>Alquila el local para sacarle el mejor partido a tus fiestas.</p>
+        <a href="html/NAIPE_reservas.html" class="">Reservar</a>
       </div>
       <div class="column-2">
-        <h2>Eventos</h2>
-        <p>
-          ¿Quieres celebrar algo con tus amigos o familia? Hazlo en nuestro
-          local.
-        </p>
-        <a href="html/NAIPE_eventos.html" class="">Ir a Eventos</a>
+        <div class="image-container">
+          <img src="img/fiesta_byn.png" alt="Fiesta privada" class="img" />
+        </div>
       </div>
     </section>
 

@@ -188,7 +188,7 @@ body, html {
   }
   
   .grid-item1 {
-    background-image: url("img/mockups/JPG/logo bordado.jpg");
+    background-image: url("../img/mockups/JPG/logo bordado.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1/4;
@@ -197,7 +197,7 @@ body, html {
   }
   
   .grid-item2 {
-    background-image: url("img/mockups/JPG/botella.jpg");
+    background-image: url("../img/mockups/JPG/botella.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1/2;
@@ -206,7 +206,7 @@ body, html {
   }
   
   .grid-item4 {
-    background-image: url("img/mockups/JPG/Sweatshirt White.jpg");
+    background-image: url("../img/mockups/JPG/Sweatshirt White.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/4;
@@ -215,7 +215,7 @@ body, html {
   }
   
   .grid-item5 {
-    background-image: url("img/mockups/JPG/Hoodie Black.jpg");
+    background-image: url("../img/mockups/JPG/Hoodie Black.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4/4;
@@ -224,7 +224,7 @@ body, html {
   }
   
   .grid-item6 {
-    background-image: url("img/mockups/JPG/gorra.jpg");
+    background-image: url("../img/mockups/JPG/gorra.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4/5;
@@ -232,7 +232,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
   .grid-item7 {
-    background-image:url("img/mockups/JPG/T-Shirt Black_logo grande.jpg");
+    background-image:url("../img/mockups/JPG/T-Shirt Black_logo grande.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1/4;
@@ -240,7 +240,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
  .grid-item8 {
-    background-image: url("img/mockups/JPG/dos.jpg");
+    background-image: url("../img/mockups/JPG/dos.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 1/2;
@@ -248,7 +248,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
 .grid-item10 {
-    background-image: url("img/mockups/JPG/T-Shirt Mockup_triangulos.jpg");
+    background-image: url("../img/mockups/JPG/T-Shirt Mockup_triangulos.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 2/4;
@@ -256,7 +256,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
  .grid-item11 {
-    background-image: url("img/mockups/JPG/Camisetas_mockup_percha.jpg");
+    background-image: url("../img/mockups/JPG/Camisetas_mockup_percha.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4/4;
@@ -264,7 +264,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
 .grid-item12 {
-    background-image: url("img/mockups/JPG/Tazas.jpg");
+    background-image: url("../img/mockups/JPG/Tazas.jpg");
     background-size: cover;
     background-position: center;
     grid-column: 4/5;
@@ -273,7 +273,7 @@ body, html {
   }
 
  .grid-item13 {
-    background-image: url("img/mockups/PNG/llaveros.png");
+    background-image: url("../img/mockups/PNG/llaveros.png");
     background-size: cover;
     background-position: center;
     grid-column: 1/4;
@@ -281,7 +281,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
   .grid-item14 {
-    background-image: url("img/mockups/PNG/Tote Bag.png");
+    background-image: url("../img/mockups/PNG/Tote Bag.png");
     background-size: cover;
     background-position: center;
     grid-column: 1/2;
@@ -289,7 +289,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
   .grid-item16 {
-    background-image: url("img/mockups/PNG/Agenda.png");
+    background-image: url("../img/mockups/PNG/Agenda.png");
     background-size: cover;
     background-position: center;
     grid-column: 2/4;
@@ -297,7 +297,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
   .grid-item17 {
-    background-image: url("img/mockups/PNG/MOCKUP CARTAS.png");
+    background-image: url("../img/mockups/PNG/MOCKUP CARTAS.png");
     background-size: cover;
     background-position: center;
     grid-column: 4/4;
@@ -305,7 +305,7 @@ body, html {
     transition: transform 0.3s ease-out 50ms;
   }
 .grid-item18 {
-    background-image: url("img/mockups/PNG/fundas movil.png");
+    background-image: url("../img/mockups/PNG/fundas movil.png");
     background-size: cover;
     background-position: center;
     grid-column: 4/5;
